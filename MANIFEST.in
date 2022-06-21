@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bizmap *.css
+recursive-include bizmap *.csv
+recursive-include bizmap *.html
+recursive-include bizmap *.ico
+recursive-include bizmap *.js
+recursive-include bizmap *.json
+recursive-include bizmap *.md
+recursive-include bizmap *.png
+recursive-include bizmap *.py
+recursive-include bizmap *.svg
+recursive-include bizmap *.txt
+recursive-exclude bizmap *.pyc
